@@ -43,5 +43,23 @@ The three basic properties for creating borders are:
 
 - margin:-The last property in the box model is the margin. The margin property is very similar to padding. But instead of applying inside the element, it sets the space that surrounds outside the element.  
 
+We can apply all these property only in block level element there are some property that we cant apply in inline level element are height,width and margin and some property get blend like top and bottom padding and top and bottom border.  
+
+## There are two types of Box-sizing property
+1. Content box:-This is the default value as specified by the CSS standard. The width and height properties include the content but does not include the padding, border, or margin. For example,
+.div{
+  width: 300px;
+  height: 200px
+  padding:20px
+}
+**Actual width is 340px**  
+2. Border-box:- The width and height properties includes the content, padding, and border, but do not include the margin. The padding and border will be inside of the box. we can apply Border box by using box-sizing property  
+`box-sizing:Border-box`
+.div{
+  width:300px
+  height:300px
+  padding:20px
+}
+**Actual width is 300px**
 
 
