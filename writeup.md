@@ -25,21 +25,29 @@ Besides, there are options for shorthand writing, which allow you to give a diff
 - Borders:-The border is to provide some outline around an element.  
 The three basic properties for creating borders are:  
   - Border-style :- mostly used with the keywords like solid, dashed or dotted.  
+  ```
   div{
       border-style: solid;
   }
+  ```
   - Border-width :- Tells the browser about the size of the border. Usually, we use pixel value for this property, for example,  
+  ```
    div {
     border-width: 10px;
   }
+  ```
   - Border-color:- by default, the value uses the currentColor of the text. However, we prefer to define it even if we don’t have to. For example,  
+  ```
   div{
       border-color: red;
   }  
+  ```
   Or we can use the shorthand value like
+  ```
   div{
       border: 10px solid red;
   }
+  ```
 
 - margin:-The last property in the box model is the margin. The margin property is very similar to padding. But instead of applying inside the element, it sets the space that surrounds outside the element.  
 
@@ -47,19 +55,23 @@ We can apply all these property only in block level element there are some prope
 
 ## There are two types of Box-sizing property
 1. Content box:-This is the default value as specified by the CSS standard. The width and height properties include the content but does not include the padding, border, or margin. For example,
+```
 .div{
   width: 300px;
   height: 200px
   padding:20px
 }
-**Actual width is 340px**  
+Actual width is 340px
+``` 
 2. Border-box:- The width and height properties includes the content, padding, and border, but do not include the margin. The padding and border will be inside of the box. we can apply Border box by using box-sizing property  
 `box-sizing:Border-box`
+```
 .div{
   width:300px
   height:300px
   padding:20px
 }
-**Actual width is 300px**
+Actual width is 300px
+```
 
 
