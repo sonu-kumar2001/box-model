@@ -42,84 +42,85 @@ table {
 	border-spacing: 0;
 }
 /* custom design */
-body{
+body {
     color: white;
 }
-.container{
-    padding: 0 60px; 
+.container {
+    padding: 0 120px; 
 }
 
 /* typography */
-h1{
+h1 {
     font-size: 30px;
     font-weight: bold;
 }
-h2{
+h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-h3{
+h3 {
     font-size: 22px;
     font-weight: bold;
 }
 /* header */
-li{
+li {
     display: inline-block;
     margin-right: 8px;
 }
-li:last-child{
+li:last-child {
     margin-right: 0;
 }
-header{
+header {
     text-align: center;
 }
 /* custom design */
-.first{
+.first {
     background-color: #2d3040;
 }
 
-.first div{
+.first div {
     padding: 100px 0;
 }
-p{
+p {
     font-size: 18px;
     margin-top: 20px;
     border-top: .3px solid grey;
     padding-top: 30px;
     padding-bottom: 30px;
+    line-height: 1.5;
 }
-a{
+a {
     color: white;
     text-decoration: none;
     margin-top: 5px 0;
 }
-.second{
+.second {
     background-color: #4c5c96;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.third{
+.third {
     background-color: #45558d;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.fourth{
+.fourth {
     background-color: #3f4e85;
     padding-top: 20px;
     padding-bottom: 30px;
 }
-img{
+img {
     height: 200px;
     width: 200px;
     border-radius: 100%;
     margin: 10px 0;
 }
-.last-para{
+.last-para {
     border: none;
     padding: 20px;
 }
-.last{
+.last {
     background-color: #2d3040;
     margin-top: -30px;
 }
